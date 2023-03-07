@@ -5,7 +5,13 @@ import profile_img_3 from './imges/man-avatar.jpg'
 import profile_img_4 from './imges/user-1.jpg'
 import profile_img_5 from './imges/user-10.jpg'
 import profile_img_6 from './imges/emily-1.jpg'
-import { faMusic } from "@fortawesome/free-solid-svg-icons";
+import {faAngleLeft, faMusic} from "@fortawesome/free-solid-svg-icons";
+import { faArrowsTurnRight } from "@fortawesome/free-solid-svg-icons";
+import { faArrowAltCircleLeft } from "@fortawesome/free-solid-svg-icons";
+import { faArrowAltCircleRight } from "@fortawesome/free-solid-svg-icons";
+import { faRemove } from "@fortawesome/free-solid-svg-icons";
+import { faPlay } from "@fortawesome/free-solid-svg-icons";
+import { faArrowCircleUp } from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 const Card_colum = () => {
@@ -13,7 +19,7 @@ const Card_colum = () => {
       <>
           <section id="card_colum-content">
               <div className="container-fluid">
-                  <div className="row">
+                  <div className="row card-colum-row-content">
                       <div className="col-md-8 col-sm-12">
                           <div className="card">
                               <div className="colum-left-content">
@@ -87,19 +93,52 @@ const Card_colum = () => {
                                           </div>
                                           <section id="play-row-content">
                                               <div className="row">
-                                                  <div className="col-md-2 col-sm-12 text-white">
+                                                  <div className="col-md-2 col-sm-6 text-white">
                                                       <div className="right-colum-card-play-content">
                                                           <span>2:45</span>
                                                       </div>
                                                   </div>
-                                                  <div className="col-md-8 col-sm-12">
+                                                  <div className="col-md-8 col-sm-6">
                                                       <div className="right-colum-card-input-content">
-                                                          <input type="range" className="form-control-range"/>
+                                                          <input  type="range" className="form-control-range slider"/>
                                                       </div>
                                                   </div>
                                                   <div className="col-md-2 col-sm-12 text-white">
                                                       <div className="right-colum-card-play-content">
                                                           <span>1:02</span>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </section>
+                                          <section id="video-play-content">
+                                              <div className="row">
+                                                  <div className="col-md-3 col-sm-12 text-white">
+                                                      <div className="right-video-play-display-content">
+                                                          <div className="video-play-icon-content">
+                                                              <FontAwesomeIcon icon={ faArrowsTurnRight } className="fa-1x" />
+                                                          </div>
+                                                          <div className="video-play-icon-content">
+                                                              <FontAwesomeIcon icon={ faArrowAltCircleLeft } className="fa-1x" />
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <div className="col-md-6 col-sm-12">
+                                                      <div className="right-colum-card-play-btn-content">
+                                                          <FontAwesomeIcon icon={ faPlay } className="fa-1x" />
+                                                      </div>
+                                                      <div className="right-colum-card-up-text-content">
+                                                          <FontAwesomeIcon icon={ faArrowCircleUp } className="fa-1x" />
+                                                          <h4>LYRICS</h4>
+                                                      </div>
+                                                  </div>
+                                                  <div className="col-md-3 col-sm-12 text-white">
+                                                      <div className="right-video-play-display-content">
+                                                          <div className="video-play-icon-content">
+                                                              <FontAwesomeIcon icon={ faArrowAltCircleRight } className="fa-1x" />
+                                                          </div>
+                                                          <div className="video-play-icon-content">
+                                                              <FontAwesomeIcon icon={ faRemove } className="fa-1x" />
+                                                          </div>
                                                       </div>
                                                   </div>
                                               </div>
