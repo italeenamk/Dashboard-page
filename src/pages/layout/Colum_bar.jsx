@@ -5,6 +5,7 @@ import Navbar from "./Navbar";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faList } from "@fortawesome/free-solid-svg-icons";
 import Slider from "./Slider";
+import Card_colum from "./Card_colum";
 
 
 
@@ -26,19 +27,8 @@ const Colum_bar = () => {
                           <div className="right-content">
                               <Navbar/>
                               <Slider/>
+                              <Card_colum/>
                               <div className="">
-                                  <h1>hello</h1>
-                                  <h1>hello</h1>
-                                  <h1>hello</h1>
-                                  <h1>hello</h1>
-                                  <h1>hello</h1>
-                                  <h1>hello</h1>
-                                  <h1>hello</h1>
-                                  <h1>hello</h1>
-                                  <h1>hello</h1>
-                                  <h1>hello</h1>
-                                  <h1>hello</h1>
-                                  <h1>hello</h1>
                                   <h1>hello</h1>
                                   <h1>hello</h1>
                                   <h1>hello</h1>

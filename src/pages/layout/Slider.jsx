@@ -1,7 +1,7 @@
 import './style/slider.css';
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
+import { faAngleLeft } from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 const Slider = () => {
@@ -34,8 +34,8 @@ const Slider = () => {
                                   <span></span>
                               </div>
                               <div className="slider-left-right-content">
-                                  <FontAwesomeIcon icon={ faArrowLeft } className="fa-1x" />
-                                  <FontAwesomeIcon icon={ faArrowRight } className="fa-2x" />
+                                  <FontAwesomeIcon icon={ faAngleLeft } className="fa-1x" />
+                                  <FontAwesomeIcon icon={ faAngleRight } className="fa-2x" />
                               </div>
                           </div>
                       </div>

@@ -1,0 +1,107 @@
+#card_colum-content {}
+#card_colum-content .container-fluid .row {
+    padding: 25px 20px;
+}
+.card {
+    background: #202026;
+    border-radius: 6px;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    padding-bottom: 0px;
+}
+.colum-left-content {}
+.colum-left-card-text-content {
+    display: flex;
+    justify-content: space-between;
+}
+.colum-left-card-text-content h3 {
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.colum-left-card-text-content p {
+    color: #aeb4b9;
+    font-weight: 500;
+    font-size: 12px;
+    cursor: pointer;
+}
+.colum-left-card-img-slider-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.colum-left-card-img-text-content {
+    margin-top: 15px;
+}
+.colum-left-card-img-text-content img {
+    width: 75%;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.colum-left-card-img-text-content h3 {
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.colum-left-card-img-text-content p {
+    color: #aeb4b9;
+    cursor: pointer;
+    font-size: 11px;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+#card_colum-content .row .col-md-2 {
+    padding: 0;
+    text-align: center;
+}
+/*right-colum-content*/
+.colum-left-card-text-content p .fa-1x {
+    margin-top: 4px;
+}
+.colum-left-content .row {}
+.right-colum-card-content {}
+.right-colum-card-content img {
+    width: 75%;
+    border-radius: 12px;
+}
+.right-colum-card-content h1 {
+    color: white;
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.right-colum-card-content h3 {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+.right-colum-card-content p {
+    color: #aeb4b9;
+    cursor: pointer;
+    font-size: 12px;
+    margin-left: 6px;
+    margin-top: -5px;
+}
+.right-colum-card-play-content {
+    margin-top: -4px;
+}
+.right-colum-card-play-content span {
+    font-size: 13px;
+    margin-top: -1px;
+}
+.right-colum-card-input-content {}
+.right-colum-card-input-content input {}
+.right-colum-card-input-content input[type="range"] {
+    -webkit-appearance: none;
+    appearance: revert;
+    background: #dddddd24;
+    cursor: pointer;
+    height: 2px;
+    margin-top: 8px;
+    margin-bottom: 11px;
+}
+#play-row-content .row {
+    padding: 15px 4px !important;
+}

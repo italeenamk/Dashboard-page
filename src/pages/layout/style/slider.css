@@ -89,10 +89,12 @@
     rotate: 87deg;
     font-size: 15px;
     margin-top: -32px;
+    cursor: pointer;
     margin-right: -12px;
 }
 .slider-left-right-content .fa-2x {
     color: #aeb4b9!important;
+    cursor: pointer;
     font-size: 15px;
     rotate: 87deg;
 }
