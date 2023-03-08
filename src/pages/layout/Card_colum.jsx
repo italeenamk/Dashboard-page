@@ -11,7 +11,7 @@ import { faArrowAltCircleLeft } from "@fortawesome/free-solid-svg-icons";
 import { faArrowAltCircleRight } from "@fortawesome/free-solid-svg-icons";
 import { faRemove } from "@fortawesome/free-solid-svg-icons";
 import { faPlay } from "@fortawesome/free-solid-svg-icons";
-import { faArrowCircleUp } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUpFromBracket } from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 const Card_colum = () => {
@@ -73,6 +73,62 @@ const Card_colum = () => {
                                   </div>
                               </div>
                           </div>
+                          <section className="left-two-colum-card-content">
+                              <div className="row">
+                                  <div className="col-md-4 col-sm-12">
+                                      <div className="left-card-colum-left-content">
+                                          <div className="card">
+                                              <div className="colum-left-content">
+                                                  <div className="colum-left-card-text-content">
+                                                      <h3>Genres</h3>
+                                                      <p>See All</p>
+                                                  </div>
+                                                  <div className="left-colum-card-two-box-colum-content">
+                                                  <div className="left-colum-card-left-box-content">
+                                                      <h3>Dance <br/>Beat</h3>
+                                                  </div>
+                                                  <div className="left-colum-card-right-box-content">
+                                                      <h3>Electro <br/>Pop</h3>
+                                                  </div>
+                                              </div>
+                                              </div>
+                                              <div className="colum-left-content">
+                                                  <div className="left-colum-card-two-box-colum-content">
+                                                      <div className="left-colum-card-left-box-content-two">
+                                                          <h3>Alternative <br/>Indie</h3>
+                                                      </div>
+                                                      <div className="left-colum-card-right-box-content-two">
+                                                          <h3>Hip Hop</h3>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div className="colum-left-content">
+                                                  <div className="left-colum-card-two-box-colum-content">
+                                                      <div className="left-colum-card-left-box-content-one">
+                                                          <h3>Classical <br/>Period</h3>
+                                                      </div>
+                                                      <div className="left-colum-card-right-box-content-one">
+                                                          <h3>Hip Hop <br/>Pap</h3>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div className="col-md-8 col-sm-12">
+                                      <div className="left-card-colum-left-content">
+                                          <div className="card">
+                                              <div className="colum-left-content">
+                                                  <div className="colum-left-card-text-content">
+                                                      <h3>Top Charts</h3>
+                                                      <p>See All</p>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </section>
                       </div>
                       <div className="col-md-4 col-sm-12">
                           <div className="card">
@@ -112,7 +168,7 @@ const Card_colum = () => {
                                           </section>
                                           <section id="video-play-content">
                                               <div className="row">
-                                                  <div className="col-md-3 col-sm-12 text-white">
+                                                  <div className="col-md-4 col-sm-12 text-white">
                                                       <div className="right-video-play-display-content">
                                                           <div className="video-play-icon-content">
                                                               <FontAwesomeIcon icon={ faArrowsTurnRight } className="fa-1x" />
@@ -122,16 +178,16 @@ const Card_colum = () => {
                                                           </div>
                                                       </div>
                                                   </div>
-                                                  <div className="col-md-6 col-sm-12">
+                                                  <div className="col-md-4 col-sm-12 right-colum-card-icon-colum ">
                                                       <div className="right-colum-card-play-btn-content">
                                                           <FontAwesomeIcon icon={ faPlay } className="fa-1x" />
                                                       </div>
-                                                      <div className="right-colum-card-up-text-content">
-                                                          <FontAwesomeIcon icon={ faArrowCircleUp } className="fa-1x" />
+                                                      <div className="right-colum-card-up-text-content text-white">
+                                                          <FontAwesomeIcon icon={ faArrowUpFromBracket } className="fa-1x" />
                                                           <h4>LYRICS</h4>
                                                       </div>
                                                   </div>
-                                                  <div className="col-md-3 col-sm-12 text-white">
+                                                  <div className="col-md-4 col-sm-12 text-white">
                                                       <div className="right-video-play-display-content">
                                                           <div className="video-play-icon-content">
                                                               <FontAwesomeIcon icon={ faArrowAltCircleRight } className="fa-1x" />
