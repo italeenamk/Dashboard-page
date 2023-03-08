@@ -5,12 +5,13 @@ import profile_img_3 from './imges/man-avatar.jpg'
 import profile_img_4 from './imges/user-1.jpg'
 import profile_img_5 from './imges/user-10.jpg'
 import profile_img_6 from './imges/emily-1.jpg'
-import {faAngleLeft, faMusic} from "@fortawesome/free-solid-svg-icons";
+import { faMusic } from "@fortawesome/free-solid-svg-icons";
 import { faArrowsTurnRight } from "@fortawesome/free-solid-svg-icons";
 import { faArrowAltCircleLeft } from "@fortawesome/free-solid-svg-icons";
 import { faArrowAltCircleRight } from "@fortawesome/free-solid-svg-icons";
 import { faRemove } from "@fortawesome/free-solid-svg-icons";
 import { faPlay } from "@fortawesome/free-solid-svg-icons";
+import { faPlus } from "@fortawesome/free-solid-svg-icons";
 import { faArrowUpFromBracket } from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
@@ -18,7 +19,7 @@ const Card_colum = () => {
   return(
       <>
           <section id="card_colum-content">
-              <div className="container-fluid">
+              <div className="container-fluid ">
                   <div className="row card-colum-row-content">
                       <div className="col-md-8 col-sm-12">
                           <div className="card">
@@ -75,7 +76,7 @@ const Card_colum = () => {
                           </div>
                           <section className="left-two-colum-card-content">
                               <div className="row">
-                                  <div className="col-md-4 col-sm-12">
+                                  <div className="col-md-4 mt-3 col-sm-12">
                                       <div className="left-card-colum-left-content">
                                           <div className="card">
                                               <div className="colum-left-content">
@@ -115,13 +116,201 @@ const Card_colum = () => {
                                           </div>
                                       </div>
                                   </div>
-                                  <div className="col-md-8 col-sm-12">
+                                  <div className="col-md-8 mt-3 col-sm-12">
                                       <div className="left-card-colum-left-content">
                                           <div className="card">
                                               <div className="colum-left-content">
                                                   <div className="colum-left-card-text-content">
                                                       <h3>Top Charts</h3>
                                                       <p>See All</p>
+                                                  </div>
+                                                  <div className="left-colum-card-table-content">
+                                                      <div className="row">
+                                                          <div className="col-md-6 col-sm-12">
+                                                              <table className="table text-white table-borderless">
+                                                                  <tbody>
+                                                                  <tr>
+                                                                      <td>
+                                                                          <div className="left-colum-card-table-date-content">
+                                                                              <p>01</p>
+                                                                          </div>
+                                                                      </td>
+                                                                      <td><img src={ profile_img_4 } alt=""/></td>
+                                                                      <td>
+                                                                          <div className="left-colum-card-table-user-content">
+                                                                              <h4>Havana</h4>
+                                                                              <p>Camila Cabello</p>
+                                                                          </div>
+                                                                      </td>
+                                                                  </tr>
+                                                                  </tbody>
+                                                              </table>
+                                                          </div>
+                                                          <div className="col-md-6 col-sm-12">
+                                                              <table className="table text-white table-borderless">
+                                                                  <tbody>
+                                                                  <tr>
+                                                                      <td>
+                                                                          <div className="left-colum-card-table-time-content">
+                                                                              <h4>3:45</h4>
+                                                                          </div>
+                                                                      </td>
+                                                                      <td>
+                                                                          <div className="left-colum-crad-table-play-content">
+                                                                              <FontAwesomeIcon icon={ faPlay } className="fa-1x" />
+                                                                          </div>
+                                                                      </td>
+                                                                      <td>
+                                                                          <div className="left-colum-card-table-plus-content">
+                                                                              <FontAwesomeIcon icon={ faPlus } className="fa-1x" />
+                                                                          </div>
+                                                                      </td>
+                                                                  </tr>
+                                                                  </tbody>
+                                                              </table>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <div className="left-colum-card-table-content">
+                                                      <div className="row">
+                                                          <div className="col-md-6 col-sm-12">
+                                                              <table className="table text-white table-borderless">
+                                                                  <tbody>
+                                                                  <tr>
+                                                                      <td>
+                                                                          <div className="left-colum-card-table-date-content">
+                                                                              <p>01</p>
+                                                                          </div>
+                                                                      </td>
+                                                                      <td><img src={ profile_img_1 } alt=""/></td>
+                                                                      <td>
+                                                                          <div className="left-colum-card-table-user-content">
+                                                                              <h4>Havana</h4>
+                                                                              <p>Camila Cabello</p>
+                                                                          </div>
+                                                                      </td>
+                                                                  </tr>
+                                                                  </tbody>
+                                                              </table>
+                                                          </div>
+                                                          <div className="col-md-6 col-sm-12">
+                                                              <table className="table text-white table-borderless">
+                                                                  <tbody>
+                                                                  <tr>
+                                                                      <td>
+                                                                          <div className="left-colum-card-table-time-content">
+                                                                              <h4>3:45</h4>
+                                                                          </div>
+                                                                      </td>
+                                                                      <td>
+                                                                          <div className="left-colum-crad-table-play-content">
+                                                                              <FontAwesomeIcon icon={ faPlay } className="fa-1x" />
+                                                                          </div>
+                                                                      </td>
+                                                                      <td>
+                                                                          <div className="left-colum-card-table-plus-content">
+                                                                              <FontAwesomeIcon icon={ faPlus } className="fa-1x" />
+                                                                          </div>
+                                                                      </td>
+                                                                  </tr>
+                                                                  </tbody>
+                                                              </table>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <div className="left-colum-card-table-content">
+                                                      <div className="row">
+                                                          <div className="col-md-6 col-sm-12">
+                                                              <table className="table text-white table-borderless">
+                                                                  <tbody>
+                                                                  <tr>
+                                                                      <td>
+                                                                          <div className="left-colum-card-table-date-content">
+                                                                              <p>01</p>
+                                                                          </div>
+                                                                      </td>
+                                                                      <td><img src={ profile_img_6 } alt=""/></td>
+                                                                      <td>
+                                                                          <div className="left-colum-card-table-user-content">
+                                                                              <h4>Havana</h4>
+                                                                              <p>Camila Cabello</p>
+                                                                          </div>
+                                                                      </td>
+                                                                  </tr>
+                                                                  </tbody>
+                                                              </table>
+                                                          </div>
+                                                          <div className="col-md-6 col-sm-12">
+                                                              <table className="table text-white table-borderless">
+                                                                  <tbody>
+                                                                  <tr>
+                                                                      <td>
+                                                                          <div className="left-colum-card-table-time-content">
+                                                                              <h4>3:45</h4>
+                                                                          </div>
+                                                                      </td>
+                                                                      <td>
+                                                                          <div className="left-colum-crad-table-play-content">
+                                                                              <FontAwesomeIcon icon={ faPlay } className="fa-1x" />
+                                                                          </div>
+                                                                      </td>
+                                                                      <td>
+                                                                          <div className="left-colum-card-table-plus-content">
+                                                                              <FontAwesomeIcon icon={ faPlus } className="fa-1x" />
+                                                                          </div>
+                                                                      </td>
+                                                                  </tr>
+                                                                  </tbody>
+                                                              </table>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <div className="left-colum-card-table-content">
+                                                      <div className="row">
+                                                          <div className="col-md-6 col-sm-12">
+                                                              <table className="table text-white table-borderless">
+                                                                  <tbody>
+                                                                  <tr>
+                                                                      <td>
+                                                                          <div className="left-colum-card-table-date-content">
+                                                                              <p>01</p>
+                                                                          </div>
+                                                                      </td>
+                                                                      <td><img src={ profile_img_3 } alt=""/></td>
+                                                                      <td>
+                                                                          <div className="left-colum-card-table-user-content">
+                                                                              <h4>Havana</h4>
+                                                                              <p>Camila Cabello</p>
+                                                                          </div>
+                                                                      </td>
+                                                                  </tr>
+                                                                  </tbody>
+                                                              </table>
+                                                          </div>
+                                                          <div className="col-md-6 col-sm-12">
+                                                              <table className="table text-white table-borderless">
+                                                                  <tbody>
+                                                                  <tr>
+                                                                      <td>
+                                                                          <div className="left-colum-card-table-time-content">
+                                                                              <h4>3:45</h4>
+                                                                          </div>
+                                                                      </td>
+                                                                      <td>
+                                                                          <div className="left-colum-crad-table-play-content">
+                                                                              <FontAwesomeIcon icon={ faPlay } className="fa-1x" />
+                                                                          </div>
+                                                                      </td>
+                                                                      <td>
+                                                                          <div className="left-colum-card-table-plus-content">
+                                                                              <FontAwesomeIcon icon={ faPlus } className="fa-1x" />
+                                                                          </div>
+                                                                      </td>
+                                                                  </tr>
+                                                                  </tbody>
+                                                              </table>
+                                                          </div>
+                                                      </div>
                                                   </div>
                                               </div>
                                           </div>

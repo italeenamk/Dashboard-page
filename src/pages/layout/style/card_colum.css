@@ -243,3 +243,69 @@
     font-weight: 600;
     cursor: pointer;
 }
+/*table-content*/
+.left-colum-card-table-content {}
+.left-colum-card-table-content table {}
+.left-colum-card-table-content table tbody {}
+.left-colum-card-table-content table tbody tr {}
+.left-colum-card-table-content .table td {
+    padding: 0 !important;
+    color: #aeb4b9;
+    font-size: 12px;
+}
+.table td, .table th {
+    padding: 0 !important;
+}
+.left-colum-card-table-content img {
+    width: 43px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.left-colum-card-table-user-content {
+    margin: 5px 7px;
+}
+.left-colum-card-table-user-content h4 {
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+}
+.left-colum-card-table-user-content p {
+    font-size: 11px;
+    margin-top: -7px;
+}
+.left-colum-card-table-time-content {}
+.left-colum-card-table-time-content h4 {
+    color: #ececec;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 11px;
+}
+.left-colum-card-table-date-content {}
+.left-colum-card-table-date-content p {
+    margin-top: 10px;
+    margin-right: 8px;
+}
+.left-colum-crad-table-play-content {
+    margin-top: 2px;
+    background: #40404b;
+    padding: 4px 0;
+    border-radius: 5px;
+    padding-left: 4px;
+    border: 1px solid #ffffff4d;
+}
+.left-colum-crad-table-play-content .fa-1x {
+    color: #5773ff;
+    font-size: 11px;
+    margin-right: -46px;
+    cursor: pointer;
+    padding-left: 5px;
+}
+.left-colum-card-table-plus-content {}
+.left-colum-card-table-plus-content .fa-1x {
+    font-size: 11px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 14px;
+    cursor: pointer;
+    margin-right: -18px;
+}
