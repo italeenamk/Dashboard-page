@@ -1,0 +1,146 @@
+@media only screen and (max-width: 770px) and (min-width: 588px){
+    .main-content .container-fluid .row {
+        background-image: linear-gradient(180deg, #000000, #18181d) !important;
+    }
+    .main-content {
+        background-image: linear-gradient(180deg, #000000, #18181d) !important;
+    }
+    .navbar-nav-list li a {
+        color: #aeb4b9!important;
+        font-size: 11px !important;
+        text-decoration: none;
+        font-weight: 400;
+        margin-left: -5px !important;
+    }
+    .sidebar-content {
+        background: #18181d;
+        padding-bottom: 170px !important;
+    }
+    .right-content {
+        margin-left: -120px !important;
+    }
+    .sidebar-card-content {
+        display: none !important;
+    }
+    .navBar .col-md-3 {
+        padding: 0 !important;
+    }
+    .nabvar-input-content {
+        margin-top: -10px;
+        width: 130% !important;
+    }
+    .navbar-card-content {
+        padding-bottom: 30px;
+        margin-right: -15px !important;
+    }
+    .input-group input {
+        background: #1d1d1d;
+        font-size: 12px !important;
+        font-weight: 500;
+        color: #c4c4c4;
+        margin-left: -27px;
+        height: 46px;
+        padding-left: 13px;
+        border-radius: 0px 9px 9px 0px;
+        border-left: none;
+        outline: none;
+    }
+    .input-group-prepend span {
+        background: #1d1d1d;
+        font-size: 14px !important;
+        margin-right: -1px !important;
+        padding: 13px 11px;
+        border-radius: 9px;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    .slider-text-content h1 {
+        font-size: 43px !important;
+    }
+    #slider-content h2 {
+        font-size: 15px !important;
+    }
+    .slider-text-display-content h3 {
+        margin-top: 0px !important;
+        font-size: 18px !important;
+    }
+    .colum-right-content {
+        margin-top: -35px !important;
+    }
+    .colum-left-card-img-text-content h3 {
+        font-size: 10px !important;
+    }
+    .colum-left-card-img-text-content p {
+        font-size: 9px !important;
+    }
+    .colum-left-card-img-text-content img {
+        width: 72% !important;
+    }
+    .navbar-img-card p {
+        color: white;
+        font-weight: 400;
+        font-size: 10px !important;
+        cursor: pointer;
+        margin-bottom: 7px;
+        margin-left: 5px !important;
+        line-height: 14px;
+        margin-right: -5px !important;
+        margin-top: 1px !important;
+    }
+    .right-colum-card-content h1 {
+        font-size: 20px !important;
+    }
+    .right-colum-card-content h3 {
+        font-size: 13px !important;
+    }
+    .right-colum-card-content p {
+        font-size: 10px !important;
+    }
+    .right-colum-card-content img {
+        width: 71% !important;
+    }
+    #video-play-content .row {
+        padding: 17px 5px !important;
+    }
+    .right-colum-card-play-btn-content .fa-1x {
+        padding: 14px 17px !important;
+    }
+    .right-colum-card-up-text-content .fa-1x {
+        font-size: 14px;
+        margin-top: 10px !important;
+        margin-bottom: 0px !important;
+    }
+    .video-play-icon-content .fa-1x {
+        font-size: 17px !important;
+    }
+    .colum-left-card-text-content p {
+        font-size: 10px !important;
+    }
+    .left-colum-card-two-box-colum-content {
+        /*display: flow-root !important;*/
+    }
+    .left-colum-card-left-box-content-two {
+        background: #a24c34;
+        padding: 9px 11px;
+        border-radius: 8px;
+        margin-bottom: 18px;
+        margin-right: 7px;
+        width: 61px !important;
+        margin-left: -13px !important;
+    }
+    .left-colum-card-left-box-content-two h3 {
+        font-size: 10px !important;
+    }
+    .left-colum-card-right-box-content-two h3 {
+        font-size: 10px !important;
+    }
+    .left-colum-card-left-box-content {
+        margin-left: -14px !important;
+    }
+    .left-colum-card-left-box-content h3 {
+        font-size: 10px !important;
+    }
+    .left-colum-card-right-box-content h3 {
+        font-size: 10px !important;
+    }
+}

@@ -13,6 +13,9 @@ import { faAdd } from '@fortawesome/free-solid-svg-icons';
 import { faPlay } from '@fortawesome/free-solid-svg-icons';
 import { faCopyright } from '@fortawesome/free-solid-svg-icons';
 import { faRemove } from '@fortawesome/free-solid-svg-icons';
+import { faRefresh } from '@fortawesome/free-solid-svg-icons';
+import { faHeart } from '@fortawesome/free-solid-svg-icons';
+import { faFile } from '@fortawesome/free-solid-svg-icons';
 import sidebar_colum_img from './imges/Luxury-Simple.jpg';
 
 const Sidebar = () => {
@@ -45,17 +48,17 @@ const Sidebar = () => {
                       </div>
                   </div>
                   {/*list_2*/}
-                  {/*<div className="sidebar">*/}
-                  {/*    <div className="sidebar-link">*/}
-                  {/*        <p>LIBRARY</p>*/}
-                  {/*        <ul>*/}
-                  {/*            <li><a href=""><FontAwesomeIcon icon={ faRefresh } className="fa-1x" />Recent</a></li>*/}
-                  {/*            <li><a href=""><FontAwesomeIcon icon={ faVideo } className="fa-1x" />Albums</a></li>*/}
-                  {/*            <li><a href=""><FontAwesomeIcon icon={ faHeart } className="fa-1x" />Favourites</a></li>*/}
-                  {/*            <li><a href=""><FontAwesomeIcon icon={ faFile } className="fa-1x" />Local</a></li>*/}
-                  {/*        </ul>*/}
-                  {/*    </div>*/}
-                  {/*</div>*/}
+                  <div className="sidebar">
+                      <div className="sidebar-link">
+                          <p>LIBRARY</p>
+                          <ul>
+                              <li><a href=""><FontAwesomeIcon icon={ faRefresh } className="fa-1x" />Recent</a></li>
+                              <li><a href=""><FontAwesomeIcon icon={ faVideo } className="fa-1x" />Albums</a></li>
+                              {/*<li><a href=""><FontAwesomeIcon icon={ faHeart } className="fa-1x" />Favourites</a></li>*/}
+                              {/*<li><a href=""><FontAwesomeIcon icon={ faFile } className="fa-1x" />Local</a></li>*/}
+                          </ul>
+                      </div>
+                  </div>
                   {/*list_3*/}
                   <div className="sidebar">
                       <div className="sidebar-link">
