@@ -68,6 +68,9 @@
 }
 .sidebar-card-content {
     padding-bottom: 30px;
+    margin-right: 19px;
+    margin-left: 30px;
+    margin-top: -13px;
 }
 .sidebar-img-card {
     background: #32323d !important;

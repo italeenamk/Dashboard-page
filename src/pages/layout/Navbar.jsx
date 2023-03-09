@@ -1,5 +1,6 @@
 import './style/navbar.css';
-import {faCopyright, faList} from "@fortawesome/free-solid-svg-icons";
+import './style/mobile_screen.css';
+import { faList} from "@fortawesome/free-solid-svg-icons";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { faBell } from "@fortawesome/free-solid-svg-icons";
 import { faServer } from "@fortawesome/free-solid-svg-icons";

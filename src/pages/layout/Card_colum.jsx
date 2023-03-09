@@ -1,4 +1,5 @@
 import './style/card_colum.css';
+import './style/mobile_screen.css';
 import profile_img_1 from './imges/dp-1.jpg'
 import profile_img_2 from './imges/josh-profile-img1.jpg'
 import profile_img_3 from './imges/man-avatar.jpg'
@@ -113,6 +114,16 @@ const Card_colum = () => {
                                                       </div>
                                                   </div>
                                               </div>
+                                              <div className="colum-left-content">
+                                                  <div className="left-colum-card-two-box-colum-content">
+                                                      <div className="left-colum-card-left-box-content-two">
+                                                          <h3>Alternative <br/>Indie</h3>
+                                                      </div>
+                                                      <div className="left-colum-card-right-box-content-two">
+                                                          <h3>Hip Hop</h3>
+                                                      </div>
+                                                  </div>
+                                              </div>
                                           </div>
                                       </div>
                                   </div>
@@ -125,7 +136,7 @@ const Card_colum = () => {
                                                       <p>See All</p>
                                                   </div>
                                                   <div className="left-colum-card-table-content">
-                                                      <div className="row">
+                                                      <div className="row mt-3">
                                                           <div className="col-md-6 col-sm-12">
                                                               <table className="table text-white table-borderless">
                                                                   <tbody>

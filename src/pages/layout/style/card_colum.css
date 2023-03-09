@@ -13,6 +13,7 @@
 .colum-left-card-text-content {
     display: flex;
     justify-content: space-between;
+    margin-top: 8px;
 }
 .colum-left-card-text-content h3 {
     color: white;
@@ -109,7 +110,7 @@
 /*right-colum-video-play-content*/
 #video-play-content {}
 #video-play-content .row {
-    padding: 27px 23px !important;
+    padding: 22px 23px !important;
     background: #5773ff;
     margin: -21px !important;
     border-radius: 6px;
@@ -158,8 +159,8 @@
     background: #476a8a;
     padding: 9px 9px;
     border-radius: 8px;
-    margin-bottom: 14px;
-    margin-top: 11px;
+    margin-bottom: 18px;
+    margin-top: 13px;
     margin-right: 7px;
     width: 77px;
 }
@@ -173,8 +174,8 @@
     padding: 9px 9px;
     border-radius: 8px;
     width: 77px;
-    margin-top: 11px;
-    margin-bottom: 14px;
+    margin-top: 13px;
+    margin-bottom: 18px;
 }
 .left-colum-card-right-box-content h3 {
     font-size: 11px;
@@ -191,7 +192,7 @@
     background: #a67894;
     padding: 9px 9px;
     border-radius: 8px;
-    margin-bottom: 14px;
+    margin-bottom: 18px;
     margin-right: 7px;
     width: 77px;
 }
@@ -205,7 +206,7 @@
     padding: 9px 9px;
     border-radius: 8px;
     width: 77px;
-    margin-bottom: 14px;
+    margin-bottom: 18px;
 }
 .left-colum-card-right-box-content-one h3 {
     font-size: 11px;
@@ -222,7 +223,7 @@
     background: #a24c34;
     padding: 9px 11px;
     border-radius: 8px;
-    margin-bottom: 14px;
+    margin-bottom: 18px;
     margin-right: 7px;
     width: 142px;
 }
@@ -236,7 +237,7 @@
     padding: 9px 9px;
     border-radius: 8px;
     width: 77px;
-    margin-bottom: 14px;
+    margin-bottom: 18px;
 }
 .left-colum-card-right-box-content-two h3 {
     font-size: 11px;

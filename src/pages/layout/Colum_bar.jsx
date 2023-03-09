@@ -1,9 +1,8 @@
 import Sidebar from "./Sidebar";
 import './style/sidebar.css';
 import './style/main_colum.css';
+import './style/mobile_screen.css';
 import Navbar from "./Navbar";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import { faList } from "@fortawesome/free-solid-svg-icons";
 import Slider from "./Slider";
 import Card_colum from "./Card_colum";
 

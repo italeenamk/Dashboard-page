@@ -1,4 +1,5 @@
 import './style/slider.css';
+import './style/mobile_screen.css';
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import { faAngleLeft } from "@fortawesome/free-solid-svg-icons";
