@@ -1,3 +1,4 @@
+/*tablet-screen-content*/
 @media only screen and (max-width: 770px) and (min-width: 588px){
     .main-content .container-fluid .row {
         background-image: linear-gradient(180deg, #000000, #18181d) !important;
@@ -170,3 +171,74 @@
         margin-left: 19px !important;
     }
     }
+/*mobile-320-screen-content*/
+@media only screen and (max-width: 320px) {
+    .slider-right-content {
+        display: none;
+    }
+    .slider-text-content h1 {
+        font-size: 30px !important;
+    }
+    .slider-text-display-content h3 {
+        font-size: 11px !important;
+        margin-top: 2px !important;
+    }
+    .slider-text-display-content p {
+        font-size: 10px !important;
+    }
+    #slider-content h2 {
+        margin-bottom: -9px !important;
+        font-size: 13px !important;
+    }
+    .navbar-nav-list {
+        margin: 10px 0 !important;
+    }
+    .nabvar-input-content {
+        margin-bottom: 28px !important;
+    }
+    .navbar-img-card p {
+        font-size: 11px !important;
+        margin-left: 6px !important;
+    }
+    .slider-btn-icon-display-content button {
+        font-size: 11px !important;
+        margin-top: -7px !important;
+    }
+    .slider-btn-icon-display-content span {
+        padding: 6px 10px !important;
+        margin-top: -9px !important;
+    }
+    .slider-btn-icon-display-content {
+        margin-bottom: -69px !important;
+    }
+    .left-colum-card-left-box-content {
+        width: 84px !important;
+    }
+    .left-colum-card-right-box-content {
+        width: 84px !important;
+    }
+    .left-colum-card-left-box-content-one {
+        width: 84px !important;
+    }
+    .left-colum-card-right-box-content-one {
+        width: 84px !important;
+    }
+    .left-colum-crad-table-play-content {
+        margin-left: 30px !important;
+        margin-right: 69px !important;
+    }
+    .left-colum-card-table-plus-content {
+        margin-right: 11px !important;
+    }
+    .right-colum-card-content h1 {
+        font-size: 21px !important;
+    }
+    .right-colum-card-content h3 {
+        font-size: 14px !important;
+    }
+    .right-colum-card-content p {
+        font-size: 10px !important;
+    }
+    }
+/*tablet-screen-content*/
+/*tablet-screen-content*/
