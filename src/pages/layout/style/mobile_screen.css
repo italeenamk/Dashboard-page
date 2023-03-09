@@ -100,7 +100,9 @@
         width: 71% !important;
     }
     #video-play-content .row {
-        padding: 17px 5px !important;
+        /*padding: 17px 5px !important;*/
+        padding-left: 9px !important;
+        padding-right: 9px !important;
     }
     .right-colum-card-play-btn-content .fa-1x {
         padding: 14px 17px !important;
@@ -143,4 +145,28 @@
     .left-colum-card-right-box-content h3 {
         font-size: 10px !important;
     }
-}
+    .left-colum-card-left-box-content-one {
+        width: 61px !important;
+        margin-left: -14px !important;
+    }
+    .colum-left-card-text-content h3 {
+        margin-left: -10px !important;
+    }
+    .left-colum-card-table-user-content p {
+        font-size: 8px !important;
+        margin-top: -8px !important;
+    }
+    .left-colum-card-table-user-content {
+        margin: 3px 7px !important;
+    }
+    .left-colum-crad-table-play-content {
+        padding-left: 8px !important;
+    }
+    .left-colum-crad-table-play-content .fa-1x {
+        padding-left: 0px !important;
+    }
+    .left-colum-card-table-time-content h4 {
+        margin-right: -23px !important;
+        margin-left: 19px !important;
+    }
+    }

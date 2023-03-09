@@ -110,7 +110,7 @@
 /*right-colum-video-play-content*/
 #video-play-content {}
 #video-play-content .row {
-    padding: 22px 23px !important;
+    padding: 22px 23px;
     background: #5773ff;
     margin: -21px !important;
     border-radius: 6px;
